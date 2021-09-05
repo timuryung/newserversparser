@@ -13,6 +13,7 @@ html = BS(r.content, 'html.parser')
 
 
 allNews = html.findAll(class_='ip_serv')
+print(allNews[0].text)
 print(allNews[1].text)
 print(allNews[2].text)
 print(allNews[3].text)
